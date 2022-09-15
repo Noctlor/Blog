@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogPost</title>
+    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-Lato text-gray-600">
+    <nav class="bg-slate-300 shadow-sm shadow-slate-300 ">
+        <div class="container mx-auto py-2 flex items-center">
+            <a href="index.html">
+                <img src="./images/Logo1.png" class="w-20" />
+
+            </a>
+            <div class="ml-12 lg:flex space-x-5 hidden">
+                <a href="index.html" class="flex item-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    Inicio
+                </a>
+            </div>
+            <div class="ml-12 lg:flex space-x-5 hidden">
+                <a href="#" class="flex item-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    Acerca de
+                </a>
+            </div>
+            <div class="ml-12 lg:flex space-x-5 hidden">
+                <a href="#" class="flex item-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    Contacto
+                </a>
+            </div>
+            <div class="relative ml-auto hidden lg:block">
+                <span class="absolute left-3 top-2 text-sm text-gray-600">
+                    <i class="fas fa-search">
+                    </i>
+                </span>
+                <input type="text" placeholder="Buscar..."
+                    class="block w-full rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300 " />
+            </div>
+            <div class="ml-5">
+                <a href="#" class="flex item-center font-semibold text-md text-gray-900 hover:text-blue-700 transition">
+                    <span class="mr-2"><i class="far fa-user"></i></span>
+                    Iniciar Sesion
+                </a>
+            </div>
+            <div class="text-xl text-gray-700 cursor-pointer ml-4 xl:hidden block hover:text-blue-700 transition " id="open">
+                <i class="fas fa-bars "></i>
+           </div>
+        </div>
+    </nav>
+    <!-- HEARDER END -->
+    <div class="py-12 bg-gray-200">
+        <div class="container mx-auto px-4 flex flex-wrap lg:flex-nowrap">
+            <div class="xl:w-9/12 lg:w-9/12 w-full xl:ml-6 lg:mr-6">
+                <div class="flex bg-white px-3 py-4 justify-between item-center rounded-sm">
+                    <h5 class="text-base font-semibold font-Lato">Negocios</h5>
+                    <a href="#"
+                        class="text-white py-1 px-3 rounded-xl text-sm bg-green-600 border border-emerald-600 hover:text-green-600 hover:bg-transparent transition">Leer
+                        Mas</a>
+                </div>
+                <!-- blog post -->
+
+                <div class="rounded-sm overflow-hidden bg-white shadow-sm ">
+                    <a href="#" class="block rounded-md overflow-hidden">
+                        <img src="./images/Bui.jpg"
+                            class="w-full h-96 object-cover transform hover:scale-110 transition duration-500" />
+                    </a>
+                    <div class="p-4 pb-5">
+                        <a href="#">
+                            <h2
+                                class="block text-2xl font-semibold text-gray-700 hover:text-blue-500 transition font-Lato">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </h2>
+                        </a>
+                        <p class="text-gray-500 text-sm mt-2">
+                            
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel vehicula dolor. Morbi nec sapien ac magna porta sagittis id a massa. Vestibulum rhoncus, lacus id luctus commodo, neque leo sollicitudin augue, quis semper ex nunc id nisi. Nulla non sapien augue. Etiam porta condimentum neque, vel eleifend tellus viverra eu. Morbi vehicula turpis id mollis vestibulum. Morbi dictum fermentum diam eu bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique, odio ut viverra luctus, eros risus pharetra enim, sed sagittis ante mi a dui. Sed sapien lorem, ornare at ligula ut, elementum varius purus.
+
+<br><br>
+<p class="text-gray-500 text-sm bg-green-200 border border-green-600 mt-2 p-4"> 
+<span class="mr-1 text-gray-400 text-xl">
+    <i class="fas fa-quote-left"></i>
+</span>
+Nullam facilisis laoreet nisl, in rutrum elit efficitur et. Suspendisse at leo mauris. Integer ac aliquet erat, vitae porttitor nunc.
+<span class="mr-1 text-gray-400 text-xl">
+    <i class="fas fa-quote-right"></i>
+</span>
+</p>
+<br><br>
+
+    Aliquam maximus tellus a lacus varius elementum. Morbi ex lacus, venenatis sit amet dui vel, porta sodales urna. Morbi id tincidunt mi, at malesuada ex. Suspendisse et pulvinar nisl. In et congue sapien. Donec sit amet justo ornare, fermentum libero quis, viverra arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam commodo nisl at volutpat malesuada. Integer consectetur enim et finibus cursus. Sed sed congue nisl, eu posuere nisl. Curabitur sit amet aliquet lorem, non auctor enim. Nunc dapibus metus quam, ac elementum nulla tempus ut. Aenean diam ligula, mollis ac dolor ut, rutrum posuere dui. Integer imperdiet libero nisl, vel fermentum est convallis at. Cras sollicitudin eros quis lorem ultrices, ut eleifend arcu pharetra. Proin laoreet eros orci, ut vehicula nunc accumsan eget.
+<br><br>
+Cras malesuada tellus lorem, ac condimentum turpis convallis egestas. Nam pretium libero in nulla pulvinar placerat. Morbi quis auctor ipsum. Aenean rhoncus pretium magna, pretium blandit felis dictum sagittis. In nunc enim, laoreet vitae auctor nec, consequat vitae enim. Phasellus consequat neque at odio ullamcorper porta. Praesent at posuere ligula, eget congue massa. Pellentesque varius magna id felis sagittis, et dictum sapien venenatis. Praesent dapibus tincidunt arcu quis tincidunt. Pellentesque non sodales tellus. In placerat mi ipsum, vel luctus dolor placerat a. Morbi consequat augue nec nibh pellentesque, sed feugiat nisl eleifend.
+<br><br>
+Ut nulla turpis, mattis vitae accumsan ut, porta et lacus. Vestibulum tempus dictum enim in congue. Vestibulum eu tempor metus. Nam volutpat at quam ut porttitor. Integer nec aliquet purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi fringilla consectetur nulla quis euismod. Curabitur malesuada justo ac sem hendrerit varius sollicitudin id neque. Nam et tortor nulla. Etiam viverra imperdiet orci nec laoreet.
+
+                        </p>
+                        <div class="mt-3 flex space-x-4">
+                            <div class="flex  text-gray-400 text-sm items-center">
+                                <span class="mr-2 text-xs">
+                                    <i class="far fa-user"></i>
+                                </span>
+                                Dailor
+                            </div>
+
+                            <div class="flex text-gray-400 text-sm items-center ">
+                                <span class="mr-2 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                Jul 15, 2022
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    
+                    
+
+                </div>
+                <!-- allpost -->
+
+                <!-- end -->
+                
+                <div class="p-4 bg-white rounded-sm shadow-sm mt-8 ">
+                    <h4 class="text-base uppercase font-semibold font-roboto mb-4 ">Post A Comment</h4>
+                    <p class="text-sm text-gray-500 mb-2 " >12 Comments</p>
+               
+                    <div class="space-y-5 ">
+                         <div class="flex items-center border-b pb-5 border-gray-300 ">
+                              <div class="w-12 h-12 flex-shrink-0 ">
+                                   <img src="./images/userimg/1.png" class="w-full rounded-full" />
+                              </div>
+               
+                    <div class="flex-grow pl-4">
+                         <h4 class="text-base font-roboto ">Kazi Ariyan</h4>
+                         <p class="text-xs text-gray-400 " >9 May 2022 at 12:30</p>
+                         <p class="text-sm font-600 mt-1 ">This is very nice post </p>
+                         <div class="flex gap-2 mt-2 ">
+                              <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg hover:bg-blue-500 hover:text-white " >Reply </button>
+               
+                              <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg hover:bg-blue-500 hover:text-white " >Delete </button>
+               
+                         </div>
+                    </div> 
+                         </div>
+               
+               
+               
+                         <div class="flex items-center border-b pb-5 border-gray-300 ">
+                              <div class="w-12 h-12 flex-shrink-0 ">
+                                   <img src="./images/userimg/2.png" class="w-full rounded-full" />
+                              </div>
+               
+                    <div class="flex-grow pl-4">
+                         <h4 class="text-base font-roboto ">Kazi Ariyan</h4>
+                         <p class="text-xs text-gray-400 " >9 May 2022 at 12:30</p>
+                         <p class="text-sm font-600 mt-1 ">This is very nice post </p>
+                         <div class="flex gap-2 mt-2 ">
+                              <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg hover:bg-blue-500 hover:text-white " >Reply </button>
+               
+                              <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg hover:bg-blue-500 hover:text-white " >Delete </button>
+               
+                         </div>
+                    </div> 
+                         </div>
+               
+               
+               
+                         <div class="flex items-center border-b pb-5 border-gray-300 ">
+                              <div class="w-12 h-12 flex-shrink-0 ">
+                                   <img src="./images/userimg/3.png" class="w-full rounded-full" />
+                              </div>
+               
+                    <div class="flex-grow pl-4">
+                         <h4 class="text-base font-roboto ">Kazi Ariyan</h4>
+                         <p class="text-xs text-gray-400 " >9 May 2022 at 12:30</p>
+                         <p class="text-sm font-600 mt-1 ">This is very nice post </p>
+                         <div class="flex gap-2 mt-2 ">
+                              <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg hover:bg-blue-500 hover:text-white " >Reply </button>
+               
+                              <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg hover:bg-blue-500 hover:text-white " >Delete </button>
+               
+                         </div>
+                    </div> 
+                         </div>
+               
+               
+               
+               
+                    </div>
+               
+               
+               
+                    <form action="#" class="mt-8" >
+                        <h5 class="text-base mb-1 ">Comment:</h5>
+                        <textarea type="text" class="w-full border border-gray-500 py-3 px-5 text-sm rounded-sm h-20 focus:outline-none focus:border-gray-800 " > 
+                        </textarea>
+                        <div class="mt-2 ">
+                             <button type="submit" class="text-white py-2 px-3 rounded-sm uppercase text-sm bg-blue-500 border border-blue-900 hover:text-blue-500 hover:bg-transparent transition ">
+                                  Submit 
+                             </button>
+              
+                   </div>
+                     
+              
+                   </form>
+                
+                </div>
+
+            </div>
+            <div class="lg:w-3/12 w-full mt-8 lg:mt-0">
+
+              <div class="bg-white w-full shadow-sm rounded-xl  p-4">
+                <h3 class="text-xl font-semibold text-gray-700 font-Lato">
+                    Extensiones Sociales
+                </h3>
+                <div class="flex gap-2 mt-4">
+                    <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+              </div>
+            <div class="hidden xl:block">
+
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-4 ">
+                    <h3 class="text-xl font-bold text-gray-700 font-Lato">Categoria</h3>
+                    <div id="sp" class="text-gray-700 space-y-2 mt-4">
+                        
+                    </div>
+                </div>
+            </div>
+                
+              <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6 ">
+                <h3 class="text-xl font-bold text-gray-700 font-Lato">Entradas Populares</h3>
+                <div id="posta" class="mt-4">
+
+                </div>
+            </div>
+            
+            <!-- tag -->
+            <div class="w-full bg-white shadow-sm rounded-xl p-4 mt-8"> 
+                <h3 class="text-xl font-bold text-gray-700 font-Lato">Tags</h3>
+                <div id="tags" class="flex item-center flex-wrap gap-2 mt-4">
+
+                </div>
+            </div>
+
+
+            <!-- endtag -->
+            
+            </div>
+
+
+            
+            </div>
+
+        </div>
+
+        <div class="fixed w-full h-full bg-black bg-opacity-25 left-0 top-0 opacity-0 invisible transition-all duration-500 xl:hidden" id="sidebar_wrapper" >
+            <div class="fixed top-0 w-72 h-full bg-white shadow-sm flex flex-col transition-all duration-500 -left-80" id="sidebar" >
+                
+        
+        
+        
+        
+        
+               <div class="lg:hidden">
+        
+        
+                       <div class="relative mx-3 mt-3 shadow-sm ">
+                            <span class="absolute left-3 top-2 text-sm text-gray-600 ">
+                                 <i class="fas fa-search"></i>
+                            </span>
+                            <input type="text" placeholder="Buscar..." class="block w-full rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300 " />               
+                       </div>
+        
+                       <h3 class="text-xl font-semibold text-gray-700 mb-1 font-roboto pl-3 pt-3 ">Menu</h3>
+        
+        
+        
+                       <div class="   ">
+                            <a href="index.html" class="flex px-4 py-1 items-center font-semibold text-md hover:text-blue-700 transition " >
+                                 <span class="mr-2">
+                                      <i class="fas fa-home"></i>
+                                 </span>
+                                 Inicio
+                            </a>
+                       </div>    
+        
+                       <div class="   ">
+                            <a href="#" class="flex px-4 py-1  items-center font-semibold text-md hover:text-blue-700 transition " >
+                                 <span class="mr-2">
+                                      <i class="fas fa-file-alt"></i>
+                                 </span>
+                                 Acerca de
+                            </a>
+                       </div>    
+        
+        
+                       <div class="  ">
+                            <a href="#" class="flex px-4 py-1 items-center font-semibold text-md hover:text-blue-700 transition " >
+                                 <span class="mr-2">
+                                      <i class="fas fa-phone"></i>
+                                 </span>
+                                 Contacto
+                            </a>
+                       </div>   
+                  </div> 
+        
+        
+        
+            <div class="bg-white shadow-sm shadow-white rounded-xl p-4 ">
+            <h3 class="text-xl font-bold text-gray-700 font-Lato">Categoria</h3>
+        
+        <!-- Start Category Sidebar                 -->
+        <div id="mc" class="text-gray-700 space-y-2 mt-4">
+        
+        </div>                  
+        <!-- End Category Sidebar --> 
+                  </div>
+        
+        
+        
+        
+                 </div>
+        
+            </div>
+
+<footer class="border-t py-4">
+<p class="text-sm text-center"> <span class="font-semibold">By Dailor</span>
+
+</p>
+</footer>
+
+</body>
+<script src="./view.js"></script>
+
+</html>
